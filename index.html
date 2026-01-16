@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Research & Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Beer.css (pin version in production) -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/beercss@3.6.13/dist/cdn/beer.min.css"
+  />
+<link
+    rel="stylesheet"
+    href="theme.css"
+  />
+
+  <!-- Material Symbols (used by Beer.css) -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    rel="stylesheet"
+  />
+
+  <style>
+    /* Minimal custom styles for maintainability */
+    section {
+      scroll-margin-top: 5rem;
+    }
+    .section-header {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body class="light">
+
+<!-- Top App Bar -->
+<header class="top">
+  <nav>
+    <h6 class="max">My Research Portfolio</h6>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+  </nav>
+</header>
+
+<main class="responsive">
+
+  <!-- HERO -->
+  <section class="padding">
+    <h1>Scientific Work & Engineering Projects</h1>
+    <p class="large">
+      A curated collection of research publications, technical features,
+      and applied projects.
+    </p>
+  </section>
+
+  <!-- BIO -->
+  <section id="bio" class="padding">
+      <article class="card">
+        <div class="padding">
+          <i class="material-symbols-outlined" style="color: var(--primary);">hub</i>
+          <h5>BIO</h5>
+          <p>
+            Bridging science, data, and real-world applications.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="padding">
+  <header class="section-header">
+    <h2>Scientific Publications</h2>
+    <p>Selected peer-reviewed work</p>
+  </header>
+
+  <div id="publications-list"></div>
+</section>
+
+  <!-- PROJECT PORTFOLIO -->
+  <section id="projects" class="padding">
+  <header class="section-header">
+    <h2>Project Portfolio</h2>
+    <p>Applied research and engineering projects</p>
+  </header>
+
+  <div id="projects-grid" class="grid"></div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="padding center">
+  <p>© 2026 Hanae Rateau</p>
+</footer>
+</body>
+
+<script>
+  async function loadJSON(path) {
+    const response = await fetch(path);
+    return response.json();
+  }
+
+  function renderPublications(publications) {
+    const container = document.getElementById("publications-list");
+
+    publications.forEach(pub => {
+      const article = document.createElement("article");
+      article.className = "card";
+
+      article.innerHTML = `
+        <div class="padding">
+          <h5>${pub.title}</h5>
+          <p class="italic">${pub.venue}, ${pub.year}</p>
+          <p>${pub.abstract}</p>
+          <a class="button small" href="${pub.url}" target="_blank">
+            Read Paper
+          </a>
+        </div>
+      `;
+
+      container.appendChild(article);
+    });
+  }
+
+  function renderProjects(projects) {
+    const grid = document.getElementById("projects-grid");
+
+    projects.forEach(project => {
+      const article = document.createElement("article");
+      article.className = "card s12";
+
+      article.innerHTML = `
+        <img src="${project.image}" alt="${project.title}" />
+        <div class="padding">
+          <h5>${project.title}</h5>
+          <p>${project.description}</p>
+          <nav>
+            <a class="button small" href="${project.demo}" target="_blank">
+              Demo
+            </a>
+            <a class="button small secondary" href="${project.source}" target="_blank">
+              Source
+            </a>
+          </nav>
+        </div>
+      `;
+
+      grid.appendChild(article);
+    });
+  }
+
+  async function init() {
+    const publications = await loadJSON("data/publications.json");
+    const projects = await loadJSON("data/projects.json");
+
+    renderPublications(publications);
+    renderProjects(projects);
+  }
+
+  init();
+</script>
+
+</html>

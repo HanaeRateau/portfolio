@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Title of Publication One",
+    "venue": "Journal Name",
+    "year": 2024,
+    "abstract": "Short abstract describing the contribution and results.",
+    "url": "https://example.com/paper1"
+  },
+  {
+    "title": "Title of Publication Two",
+    "venue": "Conference Name",
+    "year": 2023,
+    "abstract": "Brief explanation of methodology and findings.",
+    "url": "https://example.com/paper2"
+  }
+]

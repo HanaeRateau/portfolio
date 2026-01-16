@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Dungeons & Dragons Calculator",
+    "description": "Dungeons & Dragons Calculator.",
+    "image": "assets/images/project1.jpg",
+    "demo": "https://example.com/demo1",
+    "source": "https://github.com/user/project1"
+  },
+  {
+    "title": "Project Two",
+    "description": "Engineering-focused solution with real-world impact.",
+    "image": "assets/images/project2.jpg",
+    "demo": "https://example.com/demo2",
+    "source": "https://github.com/user/project2"
+  }
+]
