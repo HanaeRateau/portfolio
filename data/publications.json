@@ -1,16 +1,32 @@
 [
   {
-    "title": "Title of Publication One",
-    "venue": "Journal Name",
-    "year": 2024,
+    "title": "Talaria: Continuous Drag & Drop on a Wall Display",
+    "authors": "Hanae Rateau, Yosra Rekik, Laurent Grisoni, Joaquim Jorge",
+    "venue": "Proceedings of the 2016 ACM on Interactive Surfaces and Spaces (ISS 16)",
+    "year": 2016,
     "abstract": "Short abstract describing the contribution and results.",
-    "url": "https://example.com/paper1"
+    "url": "http://dl.acm.org/citation.cfm?id=2992154.2992164",
+    "image":"data/images/iui14.png",
+    "video": "https://youtu.be/Z-k89dWc30c"
   },
   {
-    "title": "Title of Publication Two",
-    "venue": "Conference Name",
-    "year": 2023,
-    "abstract": "Brief explanation of methodology and findings.",
-    "url": "https://example.com/paper2"
+    "title": "Mimetic interaction spaces: controlling distant displays in pervasive environments",
+    "authors": "Hanae Rateau, Laurent Grisoni, and Bruno De Araujo",
+    "venue": "Proceedings of the 19th international conference on Intelligent User Interfaces (IUI 14)",
+    "year": 2014,
+    "abstract": "Short abstract describing the contribution and results.",
+    "url": "http://dl.acm.org/citation.cfm?id=2557545",
+    "image":"data/images/iui14.png",
+    "video": "https://youtu.be/oQ7HHxGbTOI"
+  },
+  {
+    "title": "Exploring tablet surrounding interaction spaces for medical imaging",
+    "authors": "Hanaë Rateau, Laurent Grisoni, and Bruno Araujo",
+    "venue": "Proceedings of the 2nd ACM symposium on Spatial user interaction(SUI 14)",
+    "year": 2014,
+    "abstract": "Short abstract describing the contribution and results.",
+    "url": "http://dl.acm.org/citation.cfm?id=2661215",
+    "video":"https://youtu.be/6gNpg9R63lY", 
+    "image":"data/images/sui14.png"
   }
 ]
