@@ -1,12 +1,32 @@
 [
   {
+    "title": "Ether-Toolbars: Evaluating Off-Screen Toolbars for Mobile Interaction",
+    "authors": "Hanae Rateau, Yosra Rekik, Edward Lank, Laurent Grisoni",
+    "venue": "Proceedings of the 2018 ACM on Intelligent User Interfaces (IUI 18)",
+    "year": 2018,
+    "abstract": "Short abstract describing the contribution and results.",
+    "url": "https://dl.acm.org/citation.cfm?id=3172978&dl=ACM&coll=DL",
+    "image":"data/images/iui18.jpg",
+    "video": "https://youtu.be/Z-k89dWc30c"
+  },
+  {
+    "title": "PhD Thesis : Exploring Interactive Sub-Space for Gestural Midair Interaction",
+    "authors": "Commitee: Laurence Duchien (Chair), Kris Luyten (Reviewer), Philippe Palanque (Reviewer), Caroline Appert (Examiner), Fanny Chevalier (Examiner), Laurent Grisoni (Supervisor)",
+    "venue": "Proceedings of the 2016 ACM on Interactive Surfaces and Spaces (ISS 16)",
+    "year": 2017,
+    "abstract": "Short abstract describing the contribution and results.",
+    "url": "",
+    "image":"",
+    "video": ""
+  },
+  {
     "title": "Talaria: Continuous Drag & Drop on a Wall Display",
     "authors": "Hanae Rateau, Yosra Rekik, Laurent Grisoni, Joaquim Jorge",
     "venue": "Proceedings of the 2016 ACM on Interactive Surfaces and Spaces (ISS 16)",
     "year": 2016,
     "abstract": "Short abstract describing the contribution and results.",
     "url": "http://dl.acm.org/citation.cfm?id=2992154.2992164",
-    "image":"data/images/iui14.png",
+    "image":"data/images/iss16.png",
     "video": "https://youtu.be/Z-k89dWc30c"
   },
   {
