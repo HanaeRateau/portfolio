@@ -1,10 +1,111 @@
 [
+  
+  {
+    "title": "Watch+AD: Disambiguing Around-the-Smartwatch Interaction",
+    "authors": "Hanaë Rateau, Teng Han, Khalad Hasan, Keiko Katsuragawa, Yosra Rekik, Edward Lank",
+    "venue": "INTERACT 2025. Lecture Notes in Computer Science",
+    "year": 2025,
+    "abstract": "Systematic study for gestures on and around the smartwatch with a delimiting touch gesture.",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-05005-2_6",
+    "image":"",
+    "video": ""
+  },
+  {
+    "title": "Method for implementing a transaction with a merchant server involving the verification of a criterion relating to an attribute of the identity of an individual initiating the transaction",
+    "authors": "Guillaume Lefebvre, Colombe Hérault, Jean-Baptiste Drucker, Hanaë Rateau",
+    "venue": "Patent WO2025109125A1",
+    "year": 2024,
+    "abstract": "Digital identity to the service of criterion-conditionned transaction such as age.",
+    "url": "https://patents.google.com/patent/WO2025109125A1/fr",
+    "image":"",
+    "video": ""
+  },
+  {
+    "title": "Methods, devices, and media for scaling smart watch GUI based on initial stroke position ",
+    "authors": "Zhe Liu, Qiang Xu, Hanaë Rateau, Damien Masson, Edward Lank",
+    "venue": "Patent US12079457B2",
+    "year": 2024,
+    "abstract": "One-stroke target selection on smartwatche screens.",
+    "url": "https://patents.google.com/patent/US12079457B2/en",
+    "image":"",
+    "video": ""
+  },
+  {
+    "title": "Ether-Mark: An Off-Screen Marking Menu For Mobile Devices",
+    "authors": "Hanaë Rateau, Yosra Rekik, Edward Lank",
+    "venue": "Proceedings of the 25th International Conference on Multimodal Interaction (ICMI 23)",
+    "year": 2023,
+    "abstract": "One-stroke menu for off-screen command selection.",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3577190.3614150",
+    "image":"",
+    "video": ""
+  },
+  {
+    "title": "Leveraging Smartwatch and Earbuds Gesture Capture to Support Wearable Interaction",
+    "authors": "Hanaë Rateau, Edward Lank, Zhe Liu",
+    "venue": "Proc. ACM Hum.-Comput. Interact. 6, ISS",
+    "year": 2022,
+    "abstract": "Elicitation study for combinig near ear gesture for smartwatch control.",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3567710",
+    "image":"",
+    "video": ""
+  },
+  {
+    "title": "EdgeMark Menu: A 1D Menu for Curved Edge Display Smartphones",
+    "authors": "Hanaë Rateau, Yosra Rekik, Edward Lank, Keiko Katsuragawa",
+    "venue": "Proceedings of the 23rd International Conference on Mobile Human-Computer Interaction (MobileHCI 21)",
+    "year": 2021,
+    "abstract": "One-stroke linear marking menu for mobile devices.",
+    "url": "https://dl.acm.org/doi/10.1145/3447526.3472017",
+    "image":"data/images/mobilehci21.jpg",
+    "video": ""
+  },
+  {
+    "title": "Measuring the Effect of Public vs Private Context on the Kinematics of Smartphone Motion Gestures",
+    "authors": "Edward Lank, Paul Meyer, Damien  Masson and Hanaë Rateau",
+    "venue": "IHM 2019",
+    "year": 2019,
+    "abstract": ".",
+    "url": "https://hal.archives-ouvertes.fr/hal-02381598/",
+    "image":"",
+    "video": ""
+  },
+  {
+    "title": "Holding Patterns: Detecting Handedness With A Moving Smartphone At Pickup",
+    "authors": "Jeff Avery, Daniel Vogel, Edward Lank, Damien  Masson and Hanaë Rateau",
+    "venue": "IHM 2019",
+    "year": 2019,
+    "abstract": "",
+    "url": "https://hal.archives-ouvertes.fr/hal-01900065",
+    "image":"",
+    "video": ""
+  },
+  {
+    "title": "Combining digital pen, tactile, and AR for technical documentation during maintenance procedures",
+    "authors": "Hanaë Rateau, Alexis Clay, Sébastien Bottecchia",
+    "venue": "IHM 2018",
+    "year": 2018,
+    "abstract": "",
+    "url": "https://hal.archives-ouvertes.fr/hal-01900065",
+    "image":"",
+    "video": ""
+  },
+  {
+    "title": "Nouvelles modalités d'interaction pour des opérateurs de maintenance en milieu contraint : Contribution d'une approche conjointe FH et IHM dans le contexte d'un projet multipartenaire",
+    "authors": "Chloé Morel, Hanaë Rateau, Sébastien Bottecchia, Marion Wolff, Régis Mollard, Alexis Clay",
+    "venue": "ERGO'IA 2018",
+    "year": 2018,
+    "abstract": "",
+    "url": "https://hanaerateau.com/%22https://hal.archives-ouvertes.fr/ERGOIA-2018/hal-01882281",
+    "image":"",
+    "video": ""
+  },
   {
     "title": "Ether-Toolbars: Evaluating Off-Screen Toolbars for Mobile Interaction",
     "authors": "Hanae Rateau, Yosra Rekik, Edward Lank, Laurent Grisoni",
     "venue": "Proceedings of the 2018 ACM on Intelligent User Interfaces (IUI 18)",
     "year": 2018,
-    "abstract": "Short abstract describing the contribution and results.",
+    "abstract": "Near-device toolbar menu for mobile interaction.",
     "url": "https://dl.acm.org/citation.cfm?id=3172978&dl=ACM&coll=DL",
     "image":"data/images/iui18.jpg",
     "video": "https://youtu.be/Z-k89dWc30c"
@@ -12,10 +113,10 @@
   {
     "title": "PhD Thesis : Exploring Interactive Sub-Space for Gestural Midair Interaction",
     "authors": "Commitee: Laurence Duchien (Chair), Kris Luyten (Reviewer), Philippe Palanque (Reviewer), Caroline Appert (Examiner), Fanny Chevalier (Examiner), Laurent Grisoni (Supervisor)",
-    "venue": "Proceedings of the 2016 ACM on Interactive Surfaces and Spaces (ISS 16)",
+    "venue": "Université de Lille, France",
     "year": 2017,
-    "abstract": "Short abstract describing the contribution and results.",
-    "url": "",
+    "abstract": "",
+    "url": "https://pepite-depot.univ-lille.fr/LIBRE/EDSPI/2017/50376-2017-Rateau.pdf",
     "image":"",
     "video": ""
   },
@@ -24,7 +125,7 @@
     "authors": "Hanae Rateau, Yosra Rekik, Laurent Grisoni, Joaquim Jorge",
     "venue": "Proceedings of the 2016 ACM on Interactive Surfaces and Spaces (ISS 16)",
     "year": 2016,
-    "abstract": "Short abstract describing the contribution and results.",
+    "abstract": "Combining touch and mid-air modalities for continuous drag operations on wall displays.",
     "url": "http://dl.acm.org/citation.cfm?id=2992154.2992164",
     "image":"data/images/iss16.png",
     "video": "https://youtu.be/Z-k89dWc30c"
@@ -34,7 +135,7 @@
     "authors": "Hanae Rateau, Laurent Grisoni, and Bruno De Araujo",
     "venue": "Proceedings of the 19th international conference on Intelligent User Interfaces (IUI 14)",
     "year": 2014,
-    "abstract": "Short abstract describing the contribution and results.",
+    "abstract": "Design of a framework to define interactive subspaces for distant devices.",
     "url": "http://dl.acm.org/citation.cfm?id=2557545",
     "image":"data/images/iui14.png",
     "video": "https://youtu.be/oQ7HHxGbTOI"
@@ -44,9 +145,9 @@
     "authors": "Hanaë Rateau, Laurent Grisoni, and Bruno Araujo",
     "venue": "Proceedings of the 2nd ACM symposium on Spatial user interaction(SUI 14)",
     "year": 2014,
-    "abstract": "Short abstract describing the contribution and results.",
+    "abstract": "",
     "url": "http://dl.acm.org/citation.cfm?id=2661215",
     "video":"https://youtu.be/6gNpg9R63lY", 
-    "image":"data/images/sui14.png"
+    "image":"data/images/sui14.jpg"
   }
 ]

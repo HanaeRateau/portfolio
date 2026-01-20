@@ -22,7 +22,7 @@
   />
 
   <style>
-    /* Minimal custom styles for maintainability */
+    html { scroll-behavior: smooth; }
     section {
       scroll-margin-top: 5rem;
     }
@@ -35,7 +35,7 @@
 <body class="light">
 
 <!-- Top App Bar -->
-<header class="top">
+<header class="top fixed" style="background-color: var(--surface-container);">
   <nav>
     <h6 class="max">Ha.Rt</h6>
     <a href="#publications">Publications</a>
@@ -77,7 +77,7 @@
   <!-- PUBLICATIONS -->
   <section id="publications" class="padding">
   <header class="section-header">
-    <h2>Scientific Publications</h2>
+    <h2>Scientific Publications & Patents</h2>
     <p>Peer-reviewed work</p>
   </header>
 
@@ -93,6 +93,11 @@
 
   <div id="projects-grid" class="grid"></div>
 </section>
+
+<a class="button fixed bottom right margin large-elevate large primary" style="z-index: 1000;" href="https://contact.hanaerateau.com" target="_blank">
+  <i>mail</i> Contact me
+</a>
+
 
 </main>
 
@@ -118,11 +123,16 @@
       article.innerHTML = `
         <div class="padding">
           <h5>${pub.title}</h5>
+          <hr>
           <p class="italic">${pub.venue}, ${pub.year}</p>
+          <div>
+          ${pub.image? '<aside class="right small-width small-height padding"><img class="responsive" src="'+pub.image+'"></aside>':''}
           <p>${pub.abstract}</p>
+          </div>
           <a class="button small" href="${pub.url}" target="_blank">
-            Read Paper
+            Read
           </a>
+          ${pub.video? '<a class="button small secondary" href="'+pub.video+'" target="_blank">Video</a>':''}
         </div>
       `;
 
@@ -138,18 +148,16 @@
       article.className = "card s12";
 
       article.innerHTML = `
-        <img src="${project.image}" alt="${project.title}" />
+        <img src="${project.image}" alt="" />
         <div class="padding">
           <h5>${project.title}</h5>
+          <hr>
           <p>${project.description}</p>
           <nav>
             <a class="button small" href="${project.demo}" target="_blank">
               Demo
             </a>
-            ${
-              project.source?
-                '<a class="button small secondary" href="${project.source}" target="_blank">Source</a>':''
-            }
+            ${project.source?'<a class="button small secondary" href='+project.source+' target="_blank">Source</a>':''}
           </nav>
         </div>
       `;

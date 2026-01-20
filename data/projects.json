@@ -1,14 +1,14 @@
 [
   
   {"title": "My Resume",
-    "description": "Firefox extension to generate a QR code of the active page",
+    "description": "",
     "image": "",
     "demo":"https://github.com/HanaeRateau/resume/releases/latest/download/HanaeRateau-resume.pdf",
     "source": "https://github.com/HanaeRateau/resume"
   },
   {
     "title": "Dungeons & Dragons Calculator",
-    "description": "Dungeons & Dragons Encouter Calculator.",
+    "description": "Dungeons & Dragons Encounter Calculator for GMs.",
     "image": "",
     "demo": "https://hanaerateau.github.io/DnDEncouterCalculator/",
     "source": "https://github.com/HanaeRateau/DnDEncouterCalculator"
@@ -42,8 +42,8 @@
     "source": ""
   },
   {
-    "title": "Shold you get bangs?",
-    "description": "A website to help you decide whther you shold get bangs or not.",
+    "title": "Should you get bangs?",
+    "description": "A website to help you decide whether you should get bangs or not.",
     "image": "",
     "demo": "https://bangs.hanaerateau.com",
     "source": ""
