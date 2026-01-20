@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Research & Projects</title>
+  <title>Ha.Rt</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Beer.css (pin version in production) -->
@@ -37,7 +37,7 @@
 <!-- Top App Bar -->
 <header class="top">
   <nav>
-    <h6 class="max">My Research Portfolio</h6>
+    <h6 class="max">Ha.Rt</h6>
     <a href="#publications">Publications</a>
     <a href="#projects">Projects</a>
   </nav>
@@ -47,10 +47,9 @@
 
   <!-- HERO -->
   <section class="padding">
-    <h1>Scientific Work & Engineering Projects</h1>
+    <h1>Hanaë Rateau</h1>
     <p class="large">
-      A curated collection of research publications, technical features,
-      and applied projects.
+      Ph.D Computer Science, Human-Computer Interaction
     </p>
   </section>
 
@@ -58,10 +57,17 @@
   <section id="bio" class="padding">
       <article class="card">
         <div class="padding">
-          <i class="material-symbols-outlined" style="color: var(--primary);">hub</i>
-          <h5>BIO</h5>
+          <h5><i class="material-symbols-outlined" style="color: var(--primary);">history</i> Some History</h5>
+          
           <p>
-            Bridging science, data, and real-world applications.
+            I am currently a Software R&D Engineer at <a class="link" href="https://compliance-robotics.com/">Compliance Robotics</a>, a startup that builds soft-robots.
+          </p>
+          <p>Before that, I was a R&D Engineer at <a class="link" href="https://www.flandersmake.be/en">Flanders Make</a> and worked on several projects for the industry 4.0. 
+            A few years back I worked as a Customer Experience R&D engineer at <a class="link" href="https://worldline.com/fr-fr/home">Worldline</a> exploring the future user experiences around payments</p>
+          <p>
+            During my previous postdoc at the <a class="link" href="https://cs.uwaterloo.ca/">University of Waterloo</a> in Canada, I explored the use of gestures to enrich the interaction vocabulary with mobile devices. 
+            At <a class="link" href="https://www.estia.fr/">ESTIA</a>, I also investigated the use of AR to assist field operators in maintenance tasks. 
+            Gestural mid-air interaction was my main research interest during my PhD in which I proposed a design framework to explore sub-spaces for mid-air interaction.
           </p>
         </div>
       </article>
@@ -72,7 +78,7 @@
   <section id="publications" class="padding">
   <header class="section-header">
     <h2>Scientific Publications</h2>
-    <p>Selected peer-reviewed work</p>
+    <p>Peer-reviewed work</p>
   </header>
 
   <div id="publications-list"></div>
@@ -81,8 +87,8 @@
   <!-- PROJECT PORTFOLIO -->
   <section id="projects" class="padding">
   <header class="section-header">
-    <h2>Project Portfolio</h2>
-    <p>Applied research and engineering projects</p>
+    <h2>Projects</h2>
+    <p>Work- and not-work-related projects</p>
   </header>
 
   <div id="projects-grid" class="grid"></div>
@@ -140,9 +146,10 @@
             <a class="button small" href="${project.demo}" target="_blank">
               Demo
             </a>
-            <a class="button small secondary" href="${project.source}" target="_blank">
-              Source
-            </a>
+            ${
+              project.source?
+                '<a class="button small secondary" href="${project.source}" target="_blank">Source</a>':''
+            }
           </nav>
         </div>
       `;

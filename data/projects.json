@@ -1,16 +1,72 @@
 [
-  {
-    "title": "Dungeons & Dragons Calculator",
-    "description": "Dungeons & Dragons Calculator.",
-    "image": "assets/images/project1.jpg",
-    "demo": "https://example.com/demo1",
-    "source": "https://github.com/user/project1"
+  
+  {"title": "My Resume",
+    "description": "Firefox extension to generate a QR code of the active page",
+    "image": "",
+    "demo":"https://github.com/HanaeRateau/resume/releases/latest/download/HanaeRateau-resume.pdf",
+    "source": "https://github.com/HanaeRateau/resume"
   },
   {
-    "title": "Project Two",
-    "description": "Engineering-focused solution with real-world impact.",
-    "image": "assets/images/project2.jpg",
-    "demo": "https://example.com/demo2",
-    "source": "https://github.com/user/project2"
+    "title": "Dungeons & Dragons Calculator",
+    "description": "Dungeons & Dragons Encouter Calculator.",
+    "image": "",
+    "demo": "https://hanaerateau.github.io/DnDEncouterCalculator/",
+    "source": "https://github.com/HanaeRateau/DnDEncouterCalculator"
+  },
+  {
+    "title": "ALilleCine",
+    "description": "A website to get the screening for the UGC Cine Cite of Lille.",
+    "image": "",
+    "demo": "https://alillecine.hanaerateau.com",
+    "source": ""
+  },
+  {
+    "title": "Questions du permis voiture",
+    "description": "Révisez les questions de l'examen de permis français!",
+    "image": "",
+    "demo": "https://permis.hanaerateau.com",
+    "source": "https://github.com/HanaeRateau/questions-permis"
+  },
+  {
+    "title": "Tribu Koh Lanta Name Generator",
+    "description": "Generator of team names for the French version of Survivor.",
+    "image": "",
+    "demo": "https://tribukohlanta.hanaerateau.com",
+    "source": "github.com/HanaeRateau/tribuKohlanta"
+  },
+  {
+    "title": "10-minute Workout Generator",
+    "description": "A generator and runner for 10-minute HIIT workouts",
+    "image": "",
+    "demo": "https://workout.hanaerateau.com",
+    "source": ""
+  },
+  {
+    "title": "Shold you get bangs?",
+    "description": "A website to help you decide whther you shold get bangs or not.",
+    "image": "",
+    "demo": "https://bangs.hanaerateau.com",
+    "source": ""
+  },
+  {
+    "title": "Random Bechdel Movie",
+    "description": "Get a random movie that passes the Bechdel test.",
+    "image": "",
+    "demo": "https://bechdelmovie.hanaerateau.com",
+    "source": ""
+  },
+  {
+    "title": "QRossURL",
+    "description": "Firefox extension to generate a QR code of the active page",
+    "image": "",
+    "demo": "https://addons.mozilla.org/fr/firefox/addon/qrossurl/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search",
+    "source": "https://github.com/HanaeRateau/QRossURL"
+  },
+  {
+    "title": "My contact page",
+    "description": "Contact me!",
+    "image": "",
+    "demo": "https://contact.hanaerateau.com",
+    "source": ""
   }
 ]
