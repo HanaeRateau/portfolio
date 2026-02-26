@@ -148,14 +148,16 @@
       article.className = "card s12";
 
       article.innerHTML = `
-        <img src="${project.image}" alt="" />
         <div class="padding">
           <h5>${project.title}</h5>
           <hr>
+          <div>
+          ${project.image? '<aside class="right small-width small-height padding"><img class="responsive" src="'+project.image+'"></aside>':''}
           <p>${project.description}</p>
+          </div>
           <nav>
             <a class="button small" href="${project.demo}" target="_blank">
-              Demo
+              See
             </a>
             ${project.source?'<a class="button small secondary" href='+project.source+' target="_blank">Source</a>':''}
           </nav>

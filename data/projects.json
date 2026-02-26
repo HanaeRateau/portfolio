@@ -21,6 +21,13 @@
     "source": ""
   },
   {
+    "title": "La Boîte à donuts",
+    "description": "A page to play David Besnier's well known Flash banner from 2013 using ruffle",
+    "image": "data/images/kiwi.png",
+    "demo": "https://kiwi.hanaerateau.com",
+    "source": "https://github.com/HanaeRateau/kiwi"
+  },
+  {
     "title": "Questions du permis voiture",
     "description": "Révisez les questions de l'examen de permis français!",
     "image": "",
