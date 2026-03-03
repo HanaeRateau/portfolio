@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
-const { utils } = require('./utils');
+const { slugify } = require('./utils');
 
 const urls = JSON.parse(fs.readFileSync('data/projects.json', 'utf8'));
 const noimage_urls = urls.filter((project)=>!project.image && project.demo);
@@ -10,7 +10,7 @@ const noimage_urls = urls.filter((project)=>!project.image && project.demo);
 
   for (const { title, demo } of noimage_urls) {
     console.log("Screenshoting ", demo);
-    const name = utils.slugify(title);
+    const name = slugify(title);
     const page = await browser.newPage();
     await page.setViewport({ width: 1280, height: 720 });
     await page.goto(demo, { waitUntil: 'networkidle2' });
