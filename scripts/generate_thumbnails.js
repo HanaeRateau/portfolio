@@ -1,4 +1,4 @@
-// const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 const urls = JSON.parse(fs.readFileSync('data/projects.json', 'utf8'));
