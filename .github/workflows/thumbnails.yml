@@ -1,0 +1,29 @@
+name: Generate Thumbnails
+
+on:
+  push:
+    paths:
+      - 'data/projects.json'       # runs when you update the URL list
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - run: npm install puppeteer
+
+      - run: mkdir -p thumbnails && node scripts/generate_thumbnails.js
+
+      - name: Commit thumbnails
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add thumbnails/
+          git diff --staged --quiet || git commit -m "chore: refresh thumbnails"
+          git push
