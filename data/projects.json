@@ -2,7 +2,7 @@
   
   {"title": "My Resume",
     "description": "",
-    "image": "",
+    "image": "none",
     "demo":"https://github.com/HanaeRateau/resume/releases/latest/download/HanaeRateau-resume.pdf",
     "source": "https://github.com/HanaeRateau/resume"
   },

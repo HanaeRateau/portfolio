@@ -108,8 +108,9 @@
   <p>© 2026 Hanae Rateau</p>
 </footer>
 </body>
+<script type="module">
+  import { utils } from './scripts/utils.js';
 
-<script>
   async function loadJSON(path) {
     const response = await fetch(path);
     return response.json();
@@ -148,7 +149,7 @@
     projects.forEach(project => {
       const article = document.createElement("article");
       article.className = "card s12";
-      const imageSrc = project.image ?? `thumbnails/${project.title}.png`;
+      const imageSrc = project.image || `./thumbnails/${utils.slugify(project.title)}.png`;
 
       article.innerHTML = `
         <div class="padding">
