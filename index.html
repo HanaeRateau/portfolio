@@ -21,6 +21,8 @@
     rel="stylesheet"
   />
 
+  <link href="https://cdn.skypack.dev/html2canvas@1.4.1" />
+
   <style>
     html { scroll-behavior: smooth; }
     section {
@@ -146,20 +148,21 @@
     projects.forEach(project => {
       const article = document.createElement("article");
       article.className = "card s12";
+      const imageSrc = project.image ?? `thumbnails/${project.title}.png`;
 
       article.innerHTML = `
         <div class="padding">
           <h5>${project.title}</h5>
           <hr>
           <div>
-          ${project.image? '<aside class="right small-width small-height padding"><img class="responsive" src="'+project.image+'"></aside>':''}
+          <aside class="right small-width small-height padding"><img class="responsive" src="${imageSrc}" onerror="this.parentElement.remove()"></aside>
           <p>${project.description}</p>
           </div>
           <nav>
             <a class="button small" href="${project.demo}" target="_blank">
               See
             </a>
-            ${project.source?'<a class="button small secondary" href='+project.source+' target="_blank">Source</a>':''}
+            ${project.source?'<a class="button small secondary" href="'+project.source+'" target="_blank">Source</a>':''}
           </nav>
         </div>
       `;
