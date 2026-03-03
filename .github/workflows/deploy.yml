@@ -1,6 +1,10 @@
 name: FTP Deploy to server
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  workflow_run:
+        workflows: ['Generate Thumbnails']
+        types: [completed]
 
 jobs:
   web-deploy:
