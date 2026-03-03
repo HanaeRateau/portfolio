@@ -109,7 +109,24 @@
 </footer>
 </body>
 <script type="module">
-  import { utils } from './scripts/utils.js';
+  function slugify(input) {
+    if (!input)
+        return '';
+
+    // make lower case and trim
+    var slug = input.toLowerCase().trim();
+
+    // remove accents from charaters
+    slug = slug.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+
+    // replace invalid chars with spaces
+    slug = slug.replace(/[^a-z0-9\s-]/g, ' ').trim();
+
+    // replace multiple spaces or hyphens with a single hyphen
+    slug = slug.replace(/[\s-]+/g, '-');
+
+    return slug;
+}
 
   async function loadJSON(path) {
     const response = await fetch(path);
@@ -149,7 +166,7 @@
     projects.forEach(project => {
       const article = document.createElement("article");
       article.className = "card s12";
-      const imageSrc = project.image || `./thumbnails/${utils.slugify(project.title)}.png`;
+      const imageSrc = project.image || `./thumbnails/${slugify(project.title)}.png`;
 
       article.innerHTML = `
         <div class="padding">

@@ -17,4 +17,4 @@ function slugify(input) {
     return slug;
 }
 
-export const utils = {slugify};
+module.exports = { slugify };
